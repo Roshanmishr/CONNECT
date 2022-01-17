@@ -1,0 +1,47 @@
+body{
+    background-color: gray;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes example {
+    10%   {background-color: gray;}
+    25%  {background-color: white;}
+    50%  {background-color: gray;}
+    70% {background-color: gray;}
+    100%{background-color: gray;}
+  }
+
+.logo{
+    border: none;
+    position: fixed;
+    left: 645px;
+    top: 200px;
+}
+
+.text h1{
+    font-size: 65px;
+    position: absolute;
+    left: 591px;
+    top: 400px;
+}
+
+
+.text h2{
+    position: absolute;
+    left: 618px;
+    top: 510px;
+}
+
+
+
+
+.Timeout{
+    position: absolute;
+    left: 645px;
+    top: 400px;
+}
+
